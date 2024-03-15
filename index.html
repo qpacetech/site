@@ -2,7 +2,7 @@
 
   <script>
     function menuclick() {
-    	var menu = document.getElementById("MobileMenu");
+    	var menu = document.getElementById("mobileMenu");
     	if(menu.style.display == 'block') {
           menu.style.display='none';
     	} else {
@@ -103,11 +103,13 @@
       #mmenu {
         display: none;
       }
+
     }
     @media screen and (max-width: 800px) {
       #mhead {
         display: none;
       }
+
     }
   </style>
 
@@ -132,8 +134,8 @@
             gap: 10px 10px;
           "
         >
-          <div style="display: flex-item;">
-            <div style="color: white; padding: 8px; margin-left:32px;  min-width:250px;">
+          <div style="display: flex-item; flex: 1 1 250px;">
+            <div style="color: white; padding: 8px; margin-left:32px;  min-width:150px;">
 
               <div style="float:left;">
                 <svg style="fill:yellowgreen;" width="40px" height="40px"
@@ -214,7 +216,7 @@
         </div>
 
       <div style="height: 55px">&nbsp;</div>
-      <div id="MobileMenu" class="menu-content" >
+      <div id="mobileMenu" class="menu-content" >
 			  <a href="#">Home</a>
 			  <a href="#">About</a>
 			  <a href="#">Blog</a>
