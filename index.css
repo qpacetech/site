@@ -1,113 +1,106 @@
 body,
-    html {
-      margin: 0px;
-      font-family: Verdana, sans-serif;
-      font-size: 15px;
-      line-height: 1.5;
-      height: 100%;
-      width: 100%;
-      background-color: var(--color_bp);
-    }
+html {
+  margin: 0px;
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  height: 100%;
+  width: 100%;
+  background-color: var(--color_bp);
+}
 
-    .theme_bright {
-        --color_bp : rgb(232,227,215);
-		--color_bs : rgb(205, 200, 191);
-        --color_fp: black;
+.theme_bright {
+  --color_bp: rgb(232, 227, 215);
+  --color_bs: rgb(205, 200, 191);
+  --color_fp: black;
+}
 
-    }
+.theme_dark {
+  --color_bp: rgb(23, 28, 40);
+  --color_bs: rgb(30, 35, 46);
+  --color_fp: white;
+}
 
-    .theme_dark {
-        --color_bp : rgb(23, 28, 40);
-		--color_bs : rgb(30, 35, 46);
-        --color_fp: white;
-    }
+/* mobile Menu Content (Hidden by Default)  var(--color_fp) */
+.menu-content {
+  display: none;
+  background-color: var(--color_bp);
+}
 
-    /* mobile Menu Content (Hidden by Default)  var(--color_fp) */
-    .menu-content {
-      display: none;
-      background-color: var(--color_bp);
-    }
-    .menu-content a {
-      color: var(--color_fp);
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-      border-bottom:1px solid gray;
-    }
+.menu-content a {
+  color: var(--color_fp);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid gray;
+}
 
+/* Style The Dropdown Button */
+.dropbtn {
+  /*#background-color: #4caf50;*/
+  color: gray;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
 
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  /*#display: inline-block;*/
+  float: left;
+}
 
-    /* Style The Dropdown Button */
-    .dropbtn {
-      /*#background-color: #4caf50;*/
-      color: gray;
-      padding: 16px;
-      font-size: 16px;
-      border: none;
-      cursor: pointer;
-    }
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
 
-    /* The container <div> - needed to position the dropdown content */
-    .dropdown {
-      position: relative;
-      /*#display: inline-block;*/
-      float: left;
-    }
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 
-    /* Dropdown Content (Hidden by Default) */
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #f9f9f9;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-      z-index: 1;
-    }
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
 
-    /* Links inside the dropdown */
-    .dropdown-content a {
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-    }
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-    /* Change color of dropdown links on hover */
-    .dropdown-content a:hover {
-      background-color: #f1f1f1;
-    }
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  /*#background-color: #3e8e41;*/
+  color: var(--color_fp);
+}
 
-    /* Show the dropdown menu on hover */
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
+.btnmobile {
+  background-color: var(--color_bp);
+  cursor: pointer;
+}
 
-    /* Change the background color of the dropdown button when the dropdown content is shown */
-    .dropdown:hover .dropbtn {
-      /*#background-color: #3e8e41;*/
-      color: var(--color_fp);
-    }
-
-	.btnmobile {
-      background-color: var(--color_bp);
-    }
-
-	.btnmobile:hover {
-      background-color: gray;
-    }
-
-    @media screen and (min-width: 800px) {
-      #mmenu {
-        display: none;
-      }
-      #menudiv {
-        display: none;
-      }
-
-    }
-    @media screen and (max-width: 800px) {
-      #mhead {
-        display: none;
-      }
-
-    }
+@media screen and (min-width: 800px) {
+  #mmenu {
+    display: none;
+  }
+  #menudiv {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  #mhead {
+    display: none;
+  }
+}
