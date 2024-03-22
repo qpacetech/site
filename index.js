@@ -19,3 +19,19 @@ function themeclick() {
     document.documentElement.className = "theme_dark";
   }
 }
+
+function setupScroll() {
+
+  document.getElementById("scrollbutton").style.display="none";
+
+  // Button is displayed after scrolling for 500 pixels
+  const toggleVisibility = () => {
+    if (window.scrollY > 300) {
+      document.getElementById("scrollbutton").style.display="block";
+    } else {
+      document.getElementById("scrollbutton").style.display="none";
+    }
+  }; 
+
+  window.addEventListener("scroll", toggleVisibility);
+}
