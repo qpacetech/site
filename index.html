@@ -1,87 +1,798 @@
 <!DOCTYPE html>
 <html class="theme_dark">
   <head>
-   <style>
-     .bgimg {
-        /* Background image */
-        background-image: url('/w3images/forestbridge.jpg');
-        /* Full-screen */
-        height: 100%;
-        /* Center the background image */
-        background-position: center;
-        /* Scale and zoom in the image */
-        background-size: cover;
-        /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
-        position: relative;
-        /* Add a white text color to all elements inside the .bgimg container */
-        color: white;
-        /* Add a font */
-        font-family: "Courier New", Courier, monospace;
-        /* Set the font-size to 25 pixels */
-        font-size: 25px;
-      }
-      
-      /* Position text in the top-left corner */
-      .topleft {
-        position: absolute;
-        top: 0;
-        left: 16px;
-      }
-      
-      /* Position text in the bottom-left corner */
-      .bottomleft {
-        position: absolute;
-        bottom: 0;
-        left: 16px;
-      }
-      
-      /* Position text in the middle */
-      .middle {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-      }
-      
-      /* Style the <hr> element */
-      hr {
-        margin: auto;
-        width: 40%;
-      }
-   </style>
 
-
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./index.css" />
     <script src="./index.js"></script>
 
     <!-- SEO-->
-    <title></title>
-    <meta name="description" content="" />
-    <meta name="robots" content="follow, index">
+    <title>QPACE</title>
+    <meta name="description" content="Startup Ideas made possible with Qpace Technologies Offerings
+    without any technical knowledge. End to end solution including software development, validation,
+     deployment and team scale up." />
 
+    <meta name="robots" content="follow, index" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
   </head>
 
   <body onload="setupScroll()">
     <div style="width: 100%; height: 100%">
-      <div class="bgimg">
-        <div class="topleft">
-          <p>QPACE</p>
-        </div>
-        <div class="middle">
-          <h1>COMING SOON</h1>
-          <hr>
-          <p> </p>
-        </div>
-        <div class="bottomleft">
-          <p></p>
+      <div style="position: fixed; top: 0px; width: 100%; background-color: var(--color_bp); border-bottom: 0px solid rgb(50, 50, 50)">
+        <div style="margin-left: 20px; margin-right: 20px; display: flex; justify-content: space-between; gap: 10px 10px">
+          <div style="display: flex-item; flex: 1 1 250px">
+            <div style="padding: 8px; margin-left: 32px; min-width: 150px">
+              <div style="float: left">
+                <div>
+                  <svg width="250" height="50" viewBox="0 0 325 64.1077775542564">
+                    <g transform="matrix(1.02918241589328,0,0,1.02918241589328,-0.8526775422506424,-20.862556658348215)" fill="rgb(20,93,208)">
+                      <path xmlns="http://www.w3.org/2000/svg" d="M7.188,40.463c20.558,0,41.119,0,61.677,0c2.37,0,2.37-3.671,0-3.671c-20.558,0-41.119,0-61.677,0  C4.817,36.793,4.817,40.463,7.188,40.463L7.188,40.463z"></path>
+                      <path xmlns="http://www.w3.org/2000/svg" d="M2.534,50.919c19.01,0,38.021,0,57.029,0c2.276,0,2.276-3.531,0-3.531c-19.008,0-38.02,0-57.029,0  C0.26,47.388,0.26,50.919,2.534,50.919L2.534,50.919z"></path>
+                      <path xmlns="http://www.w3.org/2000/svg" d="M13.795,61.268c20.559,0,41.119,0,61.678,0c2.368,0,2.368-3.67,0-3.67c-20.559,0-41.119,0-61.678,0  C11.428,57.596,11.428,61.268,13.795,61.268L13.795,61.268z"></path>
+                      <path
+                        xmlns="http://www.w3.org/2000/svg"
+                        d="M71.068,20.271c8.907,0,16.154,7.247,16.154,16.154c0,0.508-0.052,0.958-0.117,1.367c6.42,2.211,10.888,8.319,10.888,15.275  c0,8.909-7.247,16.155-16.155,16.155c-0.514,0-1.027-0.023-1.539-0.072c-1.185,7.695-7.718,13.411-15.838,13.411  c-7.642,0-14.298-5.426-15.826-12.901c-0.228-1.126,0.496-2.226,1.622-2.456c1.123-0.227,2.229,0.496,2.458,1.624  c1.133,5.547,6.073,9.571,11.749,9.571c6.655,0,11.867-5.174,11.867-11.777c0-0.69,0.342-1.337,0.915-1.726  c0.571-0.386,1.298-0.465,1.939-0.209l0.41,0.164c0.735,0.139,1.489,0.21,2.244,0.21c6.612,0,11.992-5.38,11.992-11.994  c0-5.718-4.064-10.666-9.664-11.767c-0.617-0.12-1.145-0.516-1.439-1.067c-0.293-0.557-0.32-1.215-0.073-1.793l0.177-0.414  c0.022-0.124,0.048-0.246,0.07-0.367c0.091-0.468,0.162-0.838,0.162-1.234c0-6.613-5.379-11.992-11.992-11.992  c-4.884,0-9.239,2.916-11.099,7.434c-0.436,1.063-1.652,1.571-2.715,1.134c-1.063-0.438-1.571-1.653-1.134-2.716  C58.623,24.201,64.49,20.271,71.068,20.271z"
+                      ></path>
+                    </g>
+                    <text x="120" y="50" fill="var(--color_fp)" style="font: bold 50px sans-serif">QPACE</text>
+                  </svg>
+                </div>
+
+                <!--svg fill="#a2d643" width="35px" height="35px" viewBox="0 0 24.00 24.00" xmlns="http://www.w3.org/2000/svg" stroke="#a2d643" stroke-width="0.00024000000000000003">
+                  <g stroke-width="0"></g>
+                  <g stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.8160000000000001"></g>
+                  <g >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16,16 L16,13 L18,13 L18,16 L21,16 L21,18 L18,18 L18,21 L16,21 L16,18 L13,18 L13,16 L16,16 Z M4,13 L9,13 C10.1045695,13 11,13.8954305 11,15 L11,20 C11,21.1045695 10.1045695,22 9,22 L4,22 C2.8954305,22 2,21.1045695 2,20 L2,15 C2,13.8954305 2.8954305,13 4,13 Z M4,15 L4,20 L9,20 L9,15 L4,15 Z M4,2 L9,2 C10.1045695,2 11,2.8954305 11,4 L11,9 C11,10.1045695 10.1045695,11 9,11 L4,11 C2.8954305,11 2,10.1045695 2,9 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M4,4 L4,9 L9,9 L9,4 L4,4 Z M15,2 L20,2 C21.1045695,2 22,2.8954305 22,4 L22,9 C22,10.1045695 21.1045695,11 20,11 L15,11 C13.8954305,11 13,10.1045695 13,9 L13,4 C13,2.8954305 13.8954305,2 15,2 Z M15,4 L15,9 L20,9 L20,4 L15,4 Z"
+                    ></path>
+                  </g>
+                </svg-->
+              </div>
+
+              <!--div style="margin-left: 10px; float: left; height: 40px; vertical-align: middle; font-size: 1.6rem; color: var(--color_fp); margin-top: 0px; font-family: sans-serif">QPACE</div-->
+
+              <div style="clear: both"></div>
+            </div>
+          </div>
+
+          <div id="mhead" style="display: flex-item; min-width: 250px; flex: 0 1 800px; position: relative">
+            <!--
+            <table style="position: relative; width: 100%">
+              <tr>
+                <td>
+                  <div class="dropdown">
+                    <div class="dropbtn" style="color: var(--color_fp)">Home</div>
+                  </div>
+                </td>
+                <td>
+                  <div class="dropdown">
+                    <div class="dropbtn">About</div>
+                  </div>
+                </td>
+                <td>
+                  <div class="dropdown">
+                    <div class="dropbtn">Blog</div>
+                  </div>
+                </td>
+                <td>
+                  <div class="dropdown">
+                    <div class="dropbtn">Contact us</div>
+                    <div class="dropdown-content">
+                      <a href="#">Link 12</a>
+                      <a href="#">Link 22</a>
+                      <a href="#">Link 32</a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            -->
+          </div>
+
+          <div style="display: flex-item; min-width: 60px; flex: 0 1">
+            <div class="btnmobile" style="width: 60px; height: 100%" onClick="themeclick()">
+              <svg id="icon_dark" width="60%" height="60%" viewBox="0 0 23 23" fill="none" style="display: none; margin: auto; padding-top: 10px">
+                <path d="M9.55078 1.5C5.80078 1.5 1.30078 5.25 1.30078 11.25C1.30078 17.25 5.80078 21.75 11.8008 21.75C17.8008 21.75 21.5508 17.25 21.5508 13.5C13.3008 18.75 4.30078 9.75 9.55078 1.5Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              <svg id="icon_bright" width="60%" height="60%" viewBox="0 0 25 24" fill="none" style="display: block; margin: auto; padding-top: 10px">
+                <mask id="path-1-inside-1_977:1934" fill="white">
+                  <path
+                    d="M12.0508 16.5C10.8573 16.5 9.71271 16.0259 8.8688 15.182C8.02489 14.3381 7.55078 13.1935 7.55078 12C7.55078 10.8065 8.02489 9.66193 8.8688 8.81802C9.71271 7.97411 10.8573 7.5 12.0508 7.5C13.2443 7.5 14.3888 7.97411 15.2328 8.81802C16.0767 9.66193 16.5508 10.8065 16.5508 12C16.5508 13.1935 16.0767 14.3381 15.2328 15.182C14.3888 16.0259 13.2443 16.5 12.0508 16.5ZM12.0508 18C13.6421 18 15.1682 17.3679 16.2934 16.2426C17.4186 15.1174 18.0508 13.5913 18.0508 12C18.0508 10.4087 17.4186 8.88258 16.2934 7.75736C15.1682 6.63214 13.6421 6 12.0508 6C10.4595 6 8.93336 6.63214 7.80814 7.75736C6.68292 8.88258 6.05078 10.4087 6.05078 12C6.05078 13.5913 6.68292 15.1174 7.80814 16.2426C8.93336 17.3679 10.4595 18 12.0508 18ZM12.0508 0C12.2497 0 12.4405 0.0790176 12.5811 0.21967C12.7218 0.360322 12.8008 0.551088 12.8008 0.75V3.75C12.8008 3.94891 12.7218 4.13968 12.5811 4.28033C12.4405 4.42098 12.2497 4.5 12.0508 4.5C11.8519 4.5 11.6611 4.42098 11.5205 4.28033C11.3798 4.13968 11.3008 3.94891 11.3008 3.75V0.75C11.3008 0.551088 11.3798 0.360322 11.5205 0.21967C11.6611 0.0790176 11.8519 0 12.0508 0V0ZM12.0508 19.5C12.2497 19.5 12.4405 19.579 12.5811 19.7197C12.7218 19.8603 12.8008 20.0511 12.8008 20.25V23.25C12.8008 23.4489 12.7218 23.6397 12.5811 23.7803C12.4405 23.921 12.2497 24 12.0508 24C11.8519 24 11.6611 23.921 11.5205 23.7803C11.3798 23.6397 11.3008 23.4489 11.3008 23.25V20.25C11.3008 20.0511 11.3798 19.8603 11.5205 19.7197C11.6611 19.579 11.8519 19.5 12.0508 19.5ZM24.0508 12C24.0508 12.1989 23.9718 12.3897 23.8311 12.5303C23.6905 12.671 23.4997 12.75 23.3008 12.75H20.3008C20.1019 12.75 19.9111 12.671 19.7705 12.5303C19.6298 12.3897 19.5508 12.1989 19.5508 12C19.5508 11.8011 19.6298 11.6103 19.7705 11.4697C19.9111 11.329 20.1019 11.25 20.3008 11.25H23.3008C23.4997 11.25 23.6905 11.329 23.8311 11.4697C23.9718 11.6103 24.0508 11.8011 24.0508 12ZM4.55078 12C4.55078 12.1989 4.47176 12.3897 4.33111 12.5303C4.19046 12.671 3.99969 12.75 3.80078 12.75H0.800781C0.601869 12.75 0.411103 12.671 0.270451 12.5303C0.129799 12.3897 0.0507813 12.1989 0.0507812 12C0.0507813 11.8011 0.129799 11.6103 0.270451 11.4697C0.411103 11.329 0.601869 11.25 0.800781 11.25H3.80078C3.99969 11.25 4.19046 11.329 4.33111 11.4697C4.47176 11.6103 4.55078 11.8011 4.55078 12ZM20.5363 3.5145C20.6769 3.65515 20.7559 3.84588 20.7559 4.04475C20.7559 4.24362 20.6769 4.43435 20.5363 4.575L18.4153 6.6975C18.3455 6.76713 18.2628 6.82235 18.1717 6.86C18.0806 6.89765 17.983 6.91699 17.8845 6.91692C17.6855 6.91678 17.4947 6.83758 17.354 6.69675C17.2844 6.62702 17.2292 6.54425 17.1915 6.45318C17.1539 6.36211 17.1345 6.26452 17.1346 6.16597C17.1348 5.96695 17.214 5.77613 17.3548 5.6355L19.4758 3.5145C19.6164 3.3739 19.8072 3.29491 20.006 3.29491C20.2049 3.29491 20.3956 3.3739 20.5363 3.5145ZM6.74678 17.304C6.88738 17.4446 6.96637 17.6354 6.96637 17.8342C6.96637 18.0331 6.88738 18.2239 6.74678 18.3645L4.62578 20.4855C4.48433 20.6221 4.29488 20.6977 4.09823 20.696C3.90158 20.6943 3.71347 20.6154 3.57442 20.4764C3.43536 20.3373 3.35648 20.1492 3.35478 19.9526C3.35307 19.7559 3.42866 19.5665 3.56528 19.425L5.68628 17.304C5.82693 17.1634 6.01766 17.0844 6.21653 17.0844C6.4154 17.0844 6.60614 17.1634 6.74678 17.304ZM20.5363 20.4855C20.3956 20.6261 20.2049 20.7051 20.006 20.7051C19.8072 20.7051 19.6164 20.6261 19.4758 20.4855L17.3548 18.3645C17.2182 18.223 17.1426 18.0336 17.1443 17.8369C17.146 17.6403 17.2249 17.4522 17.3639 17.3131C17.503 17.1741 17.6911 17.0952 17.8877 17.0935C18.0844 17.0918 18.2738 17.1674 18.4153 17.304L20.5363 19.425C20.6769 19.5656 20.7559 19.7564 20.7559 19.9552C20.7559 20.1541 20.6769 20.3449 20.5363 20.4855ZM6.74678 6.6975C6.60614 6.8381 6.4154 6.91709 6.21653 6.91709C6.01766 6.91709 5.82693 6.8381 5.68628 6.6975L3.56528 4.575C3.49365 4.50582 3.43651 4.42306 3.39721 4.33155C3.3579 4.24005 3.33721 4.14164 3.33634 4.04205C3.33548 3.94247 3.35445 3.84371 3.39216 3.75153C3.42988 3.65936 3.48557 3.57562 3.55598 3.5052C3.6264 3.43478 3.71014 3.37909 3.80232 3.34138C3.89449 3.30367 3.99325 3.2847 4.09283 3.28556C4.19242 3.28643 4.29083 3.30712 4.38233 3.34642C4.47384 3.38573 4.5566 3.44287 4.62578 3.5145L6.74678 5.6355C6.81663 5.70517 6.87204 5.78793 6.90985 5.87905C6.94766 5.97017 6.96712 6.06785 6.96712 6.1665C6.96712 6.26515 6.94766 6.36283 6.90985 6.45395C6.87204 6.54507 6.81663 6.62783 6.74678 6.6975Z"
+                  ></path>
+                </mask>
+                <path
+                  d="M12.0508 16.5C10.8573 16.5 9.71271 16.0259 8.8688 15.182C8.02489 14.3381 7.55078 13.1935 7.55078 12C7.55078 10.8065 8.02489 9.66193 8.8688 8.81802C9.71271 7.97411 10.8573 7.5 12.0508 7.5C13.2443 7.5 14.3888 7.97411 15.2328 8.81802C16.0767 9.66193 16.5508 10.8065 16.5508 12C16.5508 13.1935 16.0767 14.3381 15.2328 15.182C14.3888 16.0259 13.2443 16.5 12.0508 16.5ZM12.0508 18C13.6421 18 15.1682 17.3679 16.2934 16.2426C17.4186 15.1174 18.0508 13.5913 18.0508 12C18.0508 10.4087 17.4186 8.88258 16.2934 7.75736C15.1682 6.63214 13.6421 6 12.0508 6C10.4595 6 8.93336 6.63214 7.80814 7.75736C6.68292 8.88258 6.05078 10.4087 6.05078 12C6.05078 13.5913 6.68292 15.1174 7.80814 16.2426C8.93336 17.3679 10.4595 18 12.0508 18ZM12.0508 0C12.2497 0 12.4405 0.0790176 12.5811 0.21967C12.7218 0.360322 12.8008 0.551088 12.8008 0.75V3.75C12.8008 3.94891 12.7218 4.13968 12.5811 4.28033C12.4405 4.42098 12.2497 4.5 12.0508 4.5C11.8519 4.5 11.6611 4.42098 11.5205 4.28033C11.3798 4.13968 11.3008 3.94891 11.3008 3.75V0.75C11.3008 0.551088 11.3798 0.360322 11.5205 0.21967C11.6611 0.0790176 11.8519 0 12.0508 0V0ZM12.0508 19.5C12.2497 19.5 12.4405 19.579 12.5811 19.7197C12.7218 19.8603 12.8008 20.0511 12.8008 20.25V23.25C12.8008 23.4489 12.7218 23.6397 12.5811 23.7803C12.4405 23.921 12.2497 24 12.0508 24C11.8519 24 11.6611 23.921 11.5205 23.7803C11.3798 23.6397 11.3008 23.4489 11.3008 23.25V20.25C11.3008 20.0511 11.3798 19.8603 11.5205 19.7197C11.6611 19.579 11.8519 19.5 12.0508 19.5ZM24.0508 12C24.0508 12.1989 23.9718 12.3897 23.8311 12.5303C23.6905 12.671 23.4997 12.75 23.3008 12.75H20.3008C20.1019 12.75 19.9111 12.671 19.7705 12.5303C19.6298 12.3897 19.5508 12.1989 19.5508 12C19.5508 11.8011 19.6298 11.6103 19.7705 11.4697C19.9111 11.329 20.1019 11.25 20.3008 11.25H23.3008C23.4997 11.25 23.6905 11.329 23.8311 11.4697C23.9718 11.6103 24.0508 11.8011 24.0508 12ZM4.55078 12C4.55078 12.1989 4.47176 12.3897 4.33111 12.5303C4.19046 12.671 3.99969 12.75 3.80078 12.75H0.800781C0.601869 12.75 0.411103 12.671 0.270451 12.5303C0.129799 12.3897 0.0507813 12.1989 0.0507812 12C0.0507813 11.8011 0.129799 11.6103 0.270451 11.4697C0.411103 11.329 0.601869 11.25 0.800781 11.25H3.80078C3.99969 11.25 4.19046 11.329 4.33111 11.4697C4.47176 11.6103 4.55078 11.8011 4.55078 12ZM20.5363 3.5145C20.6769 3.65515 20.7559 3.84588 20.7559 4.04475C20.7559 4.24362 20.6769 4.43435 20.5363 4.575L18.4153 6.6975C18.3455 6.76713 18.2628 6.82235 18.1717 6.86C18.0806 6.89765 17.983 6.91699 17.8845 6.91692C17.6855 6.91678 17.4947 6.83758 17.354 6.69675C17.2844 6.62702 17.2292 6.54425 17.1915 6.45318C17.1539 6.36211 17.1345 6.26452 17.1346 6.16597C17.1348 5.96695 17.214 5.77613 17.3548 5.6355L19.4758 3.5145C19.6164 3.3739 19.8072 3.29491 20.006 3.29491C20.2049 3.29491 20.3956 3.3739 20.5363 3.5145ZM6.74678 17.304C6.88738 17.4446 6.96637 17.6354 6.96637 17.8342C6.96637 18.0331 6.88738 18.2239 6.74678 18.3645L4.62578 20.4855C4.48433 20.6221 4.29488 20.6977 4.09823 20.696C3.90158 20.6943 3.71347 20.6154 3.57442 20.4764C3.43536 20.3373 3.35648 20.1492 3.35478 19.9526C3.35307 19.7559 3.42866 19.5665 3.56528 19.425L5.68628 17.304C5.82693 17.1634 6.01766 17.0844 6.21653 17.0844C6.4154 17.0844 6.60614 17.1634 6.74678 17.304ZM20.5363 20.4855C20.3956 20.6261 20.2049 20.7051 20.006 20.7051C19.8072 20.7051 19.6164 20.6261 19.4758 20.4855L17.3548 18.3645C17.2182 18.223 17.1426 18.0336 17.1443 17.8369C17.146 17.6403 17.2249 17.4522 17.3639 17.3131C17.503 17.1741 17.6911 17.0952 17.8877 17.0935C18.0844 17.0918 18.2738 17.1674 18.4153 17.304L20.5363 19.425C20.6769 19.5656 20.7559 19.7564 20.7559 19.9552C20.7559 20.1541 20.6769 20.3449 20.5363 20.4855ZM6.74678 6.6975C6.60614 6.8381 6.4154 6.91709 6.21653 6.91709C6.01766 6.91709 5.82693 6.8381 5.68628 6.6975L3.56528 4.575C3.49365 4.50582 3.43651 4.42306 3.39721 4.33155C3.3579 4.24005 3.33721 4.14164 3.33634 4.04205C3.33548 3.94247 3.35445 3.84371 3.39216 3.75153C3.42988 3.65936 3.48557 3.57562 3.55598 3.5052C3.6264 3.43478 3.71014 3.37909 3.80232 3.34138C3.89449 3.30367 3.99325 3.2847 4.09283 3.28556C4.19242 3.28643 4.29083 3.30712 4.38233 3.34642C4.47384 3.38573 4.5566 3.44287 4.62578 3.5145L6.74678 5.6355C6.81663 5.70517 6.87204 5.78793 6.90985 5.87905C6.94766 5.97017 6.96712 6.06785 6.96712 6.1665C6.96712 6.26515 6.94766 6.36283 6.90985 6.45395C6.87204 6.54507 6.81663 6.62783 6.74678 6.6975Z"
+                  fill="black"
+                  stroke="white"
+                  stroke-width="2"
+                  mask="url(#path-1-inside-1_977:1934)"
+                ></path>
+              </svg>
+            </div>
+          </div>
+
+          <div id="mmenu" style="display: flex-item; min-width: 60px; flex: 0 1">
+            <div class="btnmobile" style="width: 60px; height: 100%; float: right" onClick="menuclick()">
+              <svg width="60%" height="80%" viewBox="0 0 24 24" fill="white" style="padding-top: 5px; display: block; margin: auto">
+                <path d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" stroke="var(--color_fp)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+
+            <div style="clear: both"></div>
+          </div>
+        </div>        
+      </div>
+
+      <!-- About Page -->
+      <div style="width: 100%; padding-top: 100px; padding-bottom: 100px; background-color: var(--color_bs)">
+        <div style="max-width: 800px; padding-left: 40px; padding-right: 40px; margin: auto; text-align: center">
+          <h1 style="font-size: 3em; color: var(--color_fp)">
+            Got an Idea?
+
+            <div style="display: inline-block">
+              <svg width="50px" height="50px" viewBox="0 -5 64 64" xmlns="http://www.w3.org/2000/svg" stroke-width="3" stroke="#FFAD01" fill="none">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <line x1="50.4" y1="24.38" x2="58.3" y2="23.14"></line>
+                  <line x1="47.93" y1="17.11" x2="52.87" y2="14.2"></line>
+                  <line x1="42.89" y1="11.73" x2="46.21" y2="4.51"></line>
+                  <line x1="33.45" y1="10.69" x2="33.41" y2="4.96"></line>
+                  <line x1="24.29" y1="12.09" x2="21.62" y2="4.51"></line>
+                  <line x1="17.99" y1="17.03" x2="12.96" y2="14.29"></line>
+                  <line x1="15.78" y1="23.97" x2="8.03" y2="22.66"></line>
+                  <path d="M26.22,45.47c0-5.16-3.19-9.49-4.91-12.69A12.24,12.24,0,0,1,19.85,27c0-6.79,6.21-12.3,13-12.3"></path>
+                  <path d="M39.48,45.47c0-5.16,3.19-9.49,4.91-12.69A12.24,12.24,0,0,0,45.85,27c0-6.79-6.21-12.3-13-12.3"></path>
+                  <rect x="23.63" y="45.19" width="18.93" height="4.25" rx="2.12"></rect>
+                  <rect x="24.79" y="49.43" width="16.61" height="4.25" rx="2.12"></rect>
+                  <path d="M36.32,53.68v.84a3.23,3.23,0,1,1-6.44,0v-.84"></path>
+                  <path d="M24.57,26.25a7.5,7.5,0,0,1,7.88-7.11"></path>
+                </g>
+              </svg>
+            </div>
+
+            <br />
+            Don't Let Technical Knowledge Stop You
+          </h1>
         </div>
       </div>
-            
+
+      <!-- features -->
+      <div style="width: 100%; padding-top: 100px; padding-bottom: 100px">
+        <div style="max-width: 800px; margin: auto; text-align: center">
+          <h1 style="font-size: 3em; color: var(--color_fp)">Our Offerings</h1>
+          <p style="color: var(--color_fs)">We offer technical solutions for startups to build, validate and scale their idea.</p>
+        </div>
+
+        <div style="margin: 40px; padding: 10px; background-color: var(--color_bp); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px 30px">
+          <div style="display: flex-item; min-width: 350px; flex: 1 1; padding-bottom: 25px">
+            <div style="color: var(--color_fp)">
+              <div style="width: 40px; height: 40px; border-radius: 0.5em; margin-bottom: 30px">
+                <svg width="40px" height="40px" viewBox="0 0 48 48" fill="none" style="display: block; margin: auto" xmlns="http://www.w3.org/2000/svg">
+                  <g stroke-width="0"></g>
+                  <g stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g>
+                    <rect width="40" height="40" fill="white" fill-opacity="0.01"></rect>
+                    <path d="M13 35H7V41" stroke="#00ff00" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M26.9999 43.7765C26.0213 43.9237 25.0195 44 23.9999 44C17.0178 44 10.8714 40.4222 7.29395 35" stroke="#00ff00" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+
+                    <path d="M41 41H35V35" stroke="#ff00cc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M43.7765 21C43.9237 21.9786 44 22.9804 44 24C44 30.9821 40.4222 37.1285 35 40.706" stroke="#ff00cc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+
+                    <path d="M35 13H41V7" stroke="#0000ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M21 4.2235C21.9786 4.0763 22.9804 4 24 4C30.9821 4 37.1285 7.57778 40.706 13" stroke="#0000ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+
+                    <path d="M7 7H13V13" stroke="#FFAD01" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M13 7.29405C7.57778 10.8715 4 17.0179 4 24C4 25.0196 4.0763 26.0214 4.2235 27" stroke="#FFAD01" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </g>
+                </svg>
+
+                <!--
+                <svg width="40" height="41" viewBox="0 0 40 41" style="display: block; fill: rgb(74 108 247); margin: auto; padding: 15px">
+                  <path opacity="0.5" d="M37.7778 40.2223H24C22.8954 40.2223 22 39.3268 22 38.2223V20.0001C22 18.8955 22.8954 18.0001 24 18.0001H37.7778C38.8823 18.0001 39.7778 18.8955 39.7778 20.0001V38.2223C39.7778 39.3268 38.8823 40.2223 37.7778 40.2223Z"></path>
+                  <path
+                    d="M23.2222 0C22.6699 0 22.2222 0.447715 22.2222 1V12.3333C22.2222 12.8856 22.6699 13.3333 23.2222 13.3333H39C39.5523 13.3333 40 12.8856 40 12.3333V0.999999C40 0.447714 39.5523 0 39 0H23.2222ZM0 39C0 39.5523 0.447715 40 1 40H16.7778C17.3301 40 17.7778 39.5523 17.7778 39V27.6667C17.7778 27.1144 17.3301 26.6667 16.7778 26.6667H1C0.447716 26.6667 0 27.1144 0 27.6667V39ZM0 21.2222C0 21.7745 0.447715 22.2222 1 22.2222H16.7778C17.3301 22.2222 17.7778 21.7745 17.7778 21.2222V0.999999C17.7778 0.447714 17.3301 0 16.7778 0H1C0.447716 0 0 0.447715 0 1V21.2222Z"
+                  ></path>
+                </svg>
+              --></div>
+
+              <h3>Discover Fast</h3>
+
+              <p style="color: var(--color_fs)">We offer a best in class technology services, industry expertise and experience. In dicovery phase you can iterate over your idea at fast pace while keeping a constant engagement with stakeholders and establishing a feedback loop to validate with the market</p>
+            </div>
+          </div>
+
+          <div style="display: flex-item; min-width: 350px; flex: 1 1">
+            <div style="color: var(--color_fp)">
+              <div style="width: 40px; height: 40px; border-radius: 0.5em; margin-bottom: 30px">
+                <svg width="40px" height="40px" style="display: block; margin: auto" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                  <g stroke-width="0"></g>
+                  <g stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g>
+                    <circle cx="512" cy="512" r="512" style="fill: #0092db"></circle>
+                    <path
+                      d="M570.9 482.6h-29.4V364.8h58.9c16.3 0 29.4 13.2 29.4 29.4s13.2 29.4 29.4 29.4c16.3 0 29.4-13.2 29.4-29.4 0-48.8-39.5-88.3-88.3-88.3h-58.9V247c0-16.3-13.2-29.4-29.4-29.4-16.3 0-29.4 13.2-29.4 29.4v59h-29.4c-65 0-117.7 52.7-117.7 117.7s52.7 117.7 117.7 117.7h29.4v117.7h-58.9c-16.3 0-29.4-13.2-29.4-29.4 0-16.3-13.2-29.4-29.4-29.4s-29.4 13.2-29.4 29.4c0 48.8 39.5 88.3 88.3 88.3h58.9v58.9c0 16.3 13.2 29.4 29.4 29.4 16.3 0 29.4-13.2 29.4-29.4V718h29.4c65 0 117.7-52.7 117.7-117.7s-52.7-117.7-117.7-117.7zm-88.3 0h-29.4c-32.5 0-58.9-26.4-58.9-58.9s26.4-58.9 58.9-58.9h29.4v117.8zm88.3 176.6h-29.4V541.4h29.4c32.5 0 58.9 26.4 58.9 58.9-.1 32.5-26.4 58.9-58.9 58.9z"
+                      style="fill: #fff"
+                    ></path>
+                  </g>
+                </svg>
+
+                <!--<svg width="40" height="41" viewBox="0 0 40 41" style="display: block; fill: rgb(74 108 247); margin: auto; padding: 15px">
+                  <path opacity="0.5" d="M37.7778 40.2223H24C22.8954 40.2223 22 39.3268 22 38.2223V20.0001C22 18.8955 22.8954 18.0001 24 18.0001H37.7778C38.8823 18.0001 39.7778 18.8955 39.7778 20.0001V38.2223C39.7778 39.3268 38.8823 40.2223 37.7778 40.2223Z"></path>
+                  <path
+                    d="M23.2222 0C22.6699 0 22.2222 0.447715 22.2222 1V12.3333C22.2222 12.8856 22.6699 13.3333 23.2222 13.3333H39C39.5523 13.3333 40 12.8856 40 12.3333V0.999999C40 0.447714 39.5523 0 39 0H23.2222ZM0 39C0 39.5523 0.447715 40 1 40H16.7778C17.3301 40 17.7778 39.5523 17.7778 39V27.6667C17.7778 27.1144 17.3301 26.6667 16.7778 26.6667H1C0.447716 26.6667 0 27.1144 0 27.6667V39ZM0 21.2222C0 21.7745 0.447715 22.2222 1 22.2222H16.7778C17.3301 22.2222 17.7778 21.7745 17.7778 21.2222V0.999999C17.7778 0.447714 17.3301 0 16.7778 0H1C0.447716 0 0 0.447715 0 1V21.2222Z"
+                  ></path>
+                </svg>
+              --></div>
+
+              <h3>Cost Effective</h3>
+
+              <p style="color: var(--color_fs)">Ideas don't come easy and certainly testing those ideas is not economincal. There is huge cost barrier while starting up and validating your idea until you achieve feasibility. We offer a cost effective technology to implement those ideas for validation, feasibility and setup for production and scaling.</p>
+            </div>
+          </div>
+
+          <div style="display: flex-item; min-width: 350px; flex: 1 1">
+            <div style="color: var(--color_fp)">
+              <div style="width: 40px; height: 40px; border-radius: 0.5em; margin-bottom: 30px">
+                <svg width="40px" height="40px" viewBox="-1.6 -1.6 19.20 19.20" style="display: block; margin: auto" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                  <g stroke-width="0"></g>
+                  <g stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g>
+                    <path
+                      fill="#43e000"
+                      d="M13,1 C14.1046,1 15,1.89543 15,3 L15,13 C15,14.1046 14.1046,15 13,15 L3,15 C1.89543,15 1,14.1046 1,13 L1,3 C1,1.89543 1.89543,1 3,1 L13,1 Z M13,3 L3,3 L3,13 L13,13 L13,3 Z M6,5.98754 C6,5.18568 6.89643,4.70994 7.56049,5.15938 L10.534,7.17184 C11.12,7.56845 11.12,8.43155 10.534,8.82816 L7.56049,10.8406 C6.89642,11.2901 6,10.8143 6,10.0125 L6,5.98754 Z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+
+              <h3>Working Idea</h3>
+
+              <p style="color: var(--color_fs)">Most ideas starts with Wireframes which is good to start the conversations with different stakeholders however it falls short to refelct the true potential of the idea. We offer the solution which provides a working, live and deployable system which can go to production for real users.</p>
+            </div>
+          </div>
+
+          <div style="display: flex-item; min-width: 350px; flex: 1 1">
+            <div style="color: var(--color_fp)">
+              <div style="width: 40px; height: 40px; border-radius: 0.5em; margin-bottom: 30px">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px" viewBox="7 0 19 32" preserveAspectRatio="none" fill="#000000">
+                  <g stroke-width="0"></g>
+                  <g stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g>
+                    <style type="text/css">
+                      .isometric_een {
+                        fill: #f8f7c5;
+                      }
+                      .isometric_drie {
+                        fill: #f2d76c;
+                      }
+                      .isometric_vier {
+                        fill: #ad9a74;
+                      }
+                      .isometric_zeven {
+                        fill: #ff7344;
+                      }
+                      .isometric_acht {
+                        fill: #f05a28;
+                      }
+                      .isometric_negen {
+                        fill: #be1e2d;
+                      }
+                      .isometric_tien {
+                        fill: #7bd6c4;
+                      }
+                      .isometric_twaalf {
+                        fill: #569080;
+                      }
+                      .isometric_dertien {
+                        fill: #225b49;
+                      }
+                      .st0 {
+                        fill: #ffbb33;
+                      }
+                      .st1 {
+                        fill: #f29227;
+                      }
+                      .st2 {
+                        fill: #f5df89;
+                      }
+                      .st3 {
+                        fill: #6b9086;
+                      }
+                      .st4 {
+                        fill: none;
+                      }
+                      .st5 {
+                        fill: #72c0ab;
+                      }
+                      .st6 {
+                        fill: #be1e2d;
+                      }
+                      .st7 {
+                        fill: #f28103;
+                      }
+                      .st8 {
+                        fill: #225b49;
+                      }
+                      .st9 {
+                        fill: #7bd6c4;
+                      }
+                      .st10 {
+                        fill: #ff7344;
+                      }
+                      .st11 {
+                        fill: #f05a28;
+                      }
+                    </style>
+                    <g>
+                      <polygon class="isometric_zeven" points="16.025,28.992 8.025,24.373 8.025,20.611 16.025,25.23 "></polygon>
+                      <polygon class="isometric_negen" points="16.025,28.992 23.975,24.373 23.975,20.611 16.025,25.23 "></polygon>
+                      <polygon class="isometric_acht" points="16.025,22.496 10.402,19.25 8.025,20.611 16.025,25.23 23.975,20.611 21.627,19.241 "></polygon>
+                      <polygon class="isometric_tien" points="16.025,22.496 8.025,17.877 8.025,14.116 16.025,18.734 "></polygon>
+                      <polygon class="isometric_dertien" points="16.025,22.496 23.975,17.877 23.975,14.116 16.025,18.734 "></polygon>
+                      <polygon class="isometric_twaalf" points="16.025,16 10.402,12.754 8.025,14.116 16.025,18.734 23.975,14.116 21.627,12.745 "></polygon>
+                      <polygon class="isometric_een" points="16.025,16 8.025,11.381 8.025,7.62 16.025,12.239 "></polygon>
+                      <polygon class="isometric_vier" points="16.025,16 23.975,11.381 23.975,7.62 16.025,12.239 "></polygon>
+                      <polygon class="isometric_drie" points="8.025,7.62 16.075,3.008 23.975,7.62 16.025,12.239 "></polygon>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+
+              <h3>Full Stack Development</h3>
+
+              <p style="color: var(--color_fs)">Every idea implmentation requires development multiple components including User Interface, Business Logic & Data Storage. We cover the full stack development for your idea.</p>
+            </div>
+          </div>
+
+          <div style="display: flex-item; min-width: 350px; flex: 1 1">
+            <div style="color: var(--color_fp)">
+              <div style="width: 40px; height: 40px; border-radius: 0.5em; margin-bottom: 30px">
+                <svg width="40px" height="40px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                  <g stroke-width="0"></g>
+                  <g stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g>
+                    <path
+                      d="M736.68 435.86a173.773 173.773 0 0 1 172.042 172.038c0.578 44.907-18.093 87.822-48.461 119.698-32.761 34.387-76.991 51.744-123.581 52.343-68.202 0.876-68.284 106.718 0 105.841 152.654-1.964 275.918-125.229 277.883-277.883 1.964-152.664-128.188-275.956-277.883-277.879-68.284-0.878-68.202 104.965 0 105.842zM285.262 779.307A173.773 173.773 0 0 1 113.22 607.266c-0.577-44.909 18.09-87.823 48.461-119.705 32.759-34.386 76.988-51.737 123.58-52.337 68.2-0.877 68.284-106.721 0-105.842C132.605 331.344 9.341 454.607 7.379 607.266 5.417 759.929 135.565 883.225 285.262 885.148c68.284 0.876 68.2-104.965 0-105.841z"
+                      fill="#4A5699"
+                    ></path>
+                    <path d="M339.68 384.204a173.762 173.762 0 0 1 172.037-172.038c44.908-0.577 87.822 18.092 119.698 48.462 34.388 32.759 51.743 76.985 52.343 123.576 0.877 68.199 106.72 68.284 105.843 0-1.964-152.653-125.231-275.917-277.884-277.879-152.664-1.962-275.954 128.182-277.878 277.879-0.88 68.284 104.964 68.199 105.841 0z" fill="#C45FA0"></path>
+                    <path d="M545.039 473.078c16.542 16.542 16.542 43.356 0 59.896l-122.89 122.895c-16.542 16.538-43.357 16.538-59.896 0-16.542-16.546-16.542-43.362 0-59.899l122.892-122.892c16.537-16.542 43.355-16.542 59.894 0z" fill="#F39A2B"></path>
+                    <path d="M485.17 473.078c16.537-16.539 43.354-16.539 59.892 0l122.896 122.896c16.538 16.533 16.538 43.354 0 59.896-16.541 16.538-43.361 16.538-59.898 0L485.17 532.979c-16.547-16.543-16.547-43.359 0-59.901z" fill="#F39A2B"></path>
+                    <path d="M514.045 634.097c23.972 0 43.402 19.433 43.402 43.399v178.086c0 23.968-19.432 43.398-43.402 43.398-23.964 0-43.396-19.432-43.396-43.398V677.496c0.001-23.968 19.433-43.399 43.396-43.399z" fill="#E5594F"></path>
+                  </g>
+                </svg>
+              </div>
+
+              <h3>Deployment</h3>
+
+              <p style="color: var(--color_fs)">We offer flexible deployment options covering all the prominent cloud vendors including AWS, GCP, Microsoft Azure & Digital Ocean. You can choose to deploy on-premse or on your laptop.</p>
+            </div>
+          </div>
+
+          <div style="display: flex-item; min-width: 350px; flex: 1 1">
+            <div style="color: var(--color_fp)">
+              <div style="width: 40px; height: 40px; border-radius: 0.5em; margin-bottom: 30px">
+                <svg height="40px" width="40px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000">
+                  <g stroke-width="0"></g>
+                  <g stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g>
+                    <g>
+                      <path style="fill: #84dbff" d="M101.702,148.819c-7.072-5.917-8.009-16.446-2.092-23.518 c18.491-22.104,41.935-40.395,67.799-52.897c8.301-4.012,18.283-0.535,22.297,7.766c4.013,8.302,0.535,18.284-7.765,22.297 c-21.631,10.455-41.244,25.76-56.719,44.259C119.303,153.797,108.774,154.735,101.702,148.819z"></path>
+                      <path style="fill: #84dbff" d="M167.408,439.597c-25.863-12.501-49.308-30.793-67.799-52.897 c-5.917-7.072-4.98-17.601,2.092-23.518c7.072-5.916,17.6-4.98,23.518,2.094c15.475,18.499,35.088,33.804,56.719,44.259 c8.301,4.012,11.779,13.995,7.765,22.297C185.694,440.129,175.715,443.61,167.408,439.597z"></path>
+                    </g>
+                    <g>
+                      <path style="fill: #ffd15c" d="M256,106.662c-25.326,0-45.932-20.605-45.932-45.932S230.672,14.798,256,14.798 s45.932,20.605,45.932,45.932S281.327,106.662,256,106.662z"></path>
+                      <path style="fill: #ffd15c" d="M314.473,204.33H197.526c-11.379,0-19.44-11.167-15.838-21.974l19.491-58.473 c2.273-6.817,8.652-11.416,15.838-11.416h77.965c7.187,0,13.565,4.598,15.838,11.416l19.491,58.473 C333.909,193.15,325.865,204.33,314.473,204.33z"></path>
+                    </g>
+                    <g>
+                      <path style="fill: #f8b64c" d="M256,14.799v91.863c25.326,0,45.932-20.605,45.932-45.932S281.327,14.799,256,14.799z"></path>
+                      <path style="fill: #f8b64c" d="M330.312,182.355l-19.491-58.473c-2.273-6.817-8.652-11.416-15.838-11.416H256v91.863h58.473 C325.865,204.33,333.909,193.15,330.312,182.355z"></path>
+                    </g>
+                    <g>
+                      <path style="fill: #ffd15c" d="M256,399.534c-25.326,0-45.932-20.605-45.932-45.932S230.672,307.67,256,307.67 s45.932,20.605,45.932,45.932S281.327,399.534,256,399.534z"></path>
+                      <path style="fill: #ffd15c" d="M314.473,497.202H197.526c-11.379,0-19.44-11.167-15.838-21.974l19.491-58.473 c2.273-6.817,8.652-11.416,15.838-11.416h77.965c7.187,0,13.565,4.598,15.838,11.416l19.491,58.473 C333.909,486.022,325.865,497.202,314.473,497.202z"></path>
+                    </g>
+                    <g>
+                      <path style="fill: #f8b64c" d="M256,307.671v91.863c25.326,0,45.932-20.605,45.932-45.932S281.327,307.671,256,307.671z"></path>
+                      <path style="fill: #f8b64c" d="M330.312,475.228l-19.491-58.473c-2.273-6.817-8.652-11.416-15.838-11.416H256v91.863h58.473 C325.865,497.202,333.909,486.022,330.312,475.228z"></path>
+                    </g>
+                    <g>
+                      <path style="fill: #ffd15c" d="M75.179,253.098c-25.326,0-45.932-20.605-45.932-45.932s20.605-45.932,45.932-45.932 s45.932,20.605,45.932,45.932S100.507,253.098,75.179,253.098z"></path>
+                      <path style="fill: #ffd15c" d="M133.653,350.765H16.706c-11.379,0-19.44-11.167-15.838-21.974l19.491-58.473 c2.273-6.817,8.652-11.416,15.838-11.416h77.964c7.187,0,13.565,4.598,15.838,11.415l19.492,58.473 C153.089,339.586,145.044,350.765,133.653,350.765z"></path>
+                    </g>
+                    <g>
+                      <path style="fill: #f8b64c" d="M75.179,161.236v91.863c25.326,0,45.932-20.605,45.932-45.932S100.507,161.236,75.179,161.236z"></path>
+                      <path style="fill: #f8b64c" d="M149.492,328.791l-19.491-58.473c-2.273-6.817-8.652-11.416-15.838-11.416H75.179v91.863h58.473 C145.045,350.765,153.089,339.586,149.492,328.791z"></path>
+                    </g>
+                    <g>
+                      <path style="fill: #ffd15c" d="M436.82,253.098c-25.326,0-45.932-20.605-45.932-45.932s20.605-45.932,45.932-45.932 s45.932,20.605,45.932,45.932S462.146,253.098,436.82,253.098z"></path>
+                      <path style="fill: #ffd15c" d="M495.294,350.765H378.347c-11.379,0-19.44-11.168-15.838-21.975l19.492-58.473 c2.273-6.817,8.652-11.415,15.838-11.415h77.964c7.187,0,13.565,4.598,15.838,11.416l19.491,58.473 C514.73,339.586,506.685,350.765,495.294,350.765z"></path>
+                    </g>
+                    <g>
+                      <path style="fill: #f8b64c" d="M436.82,161.236v91.863c25.326,0,45.932-20.605,45.932-45.932S462.146,161.236,436.82,161.236z"></path>
+                      <path style="fill: #f8b64c" d="M511.133,328.791l-19.491-58.473c-2.273-6.817-8.652-11.416-15.838-11.416h-38.983v91.863h58.473 C506.685,350.765,514.73,339.586,511.133,328.791z"></path>
+                    </g>
+                    <g>
+                      <path style="fill: #54c9eb" d="M386.78,146.725c-15.475-18.499-35.088-33.804-56.719-44.259 c-8.301-4.012-11.779-13.995-7.765-22.297c4.011-8.301,13.995-11.778,22.297-7.766c25.863,12.501,49.308,30.793,67.799,52.897 c5.917,7.072,4.98,17.601-2.092,23.518C403.224,154.733,392.698,153.799,386.78,146.725z"></path>
+                      <path style="fill: #54c9eb" d="M322.295,431.83c-4.012-8.302-0.535-18.284,7.765-22.297c21.631-10.456,41.244-25.76,56.719-44.259 c5.917-7.072,16.447-8.009,23.518-2.094c7.072,5.917,8.009,16.446,2.092,23.518c-18.491,22.104-41.935,40.395-67.799,52.897 C336.292,443.607,326.309,440.135,322.295,431.83z"></path>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+
+              <h3>Team Up and Scale</h3>
+
+              <p style="color: var(--color_fs)">Once your idea is validated, you need a talented team to scale your idea to success. We can help you find your team establishig recruitment process, hire best suitable talent</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ticket Form
+    <div style="width: 100%; padding-top: 100px; padding-bottom: 100px">
+      <div style="display: block; margin-left: 40px; text-align: left">
+        <div
+          style="padding: 10px; background-color: var(--color_bp); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px 10px">
+          <div
+            style="display: flex-item; min-width: 450px; flex: 1 1 450px; padding-bottom: 25px; background-color: var(--color_bs)">
+            <div style="color: var(--color_fp); padding: 16px">
+              <h2>Need Help? Open a Ticket</h2>
+              <p style="color: rgb(120 130 147); margin-top: -15px; margin-bottom: 25px; font-weight: 500">Our support
+                team will get back to you ASAP via email.</p>
+
+              <form>
+                <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px 10px">
+                  <div style="display: flex-item; min-width: 300px; flex: 1 1; padding-bottom: 25px">
+                    <div style="margin-bottom: 8px">
+                      <label for="name"
+                        style="margin-bottom: 8px; display: block; font-size: 1rem; line-height: 1.25rem; font-weight: 500">
+                        Your Name </label>
+                      <input
+                        style="width: 100%; background-color: rgb(44 48 59); color: var(--color_fs); opacity: 1; outline: 2px solid transparent; outline-offset: 2px; font-size: 1rem; line-height: 2.5em; border-radius: 0.125rem; border-width: 0px"
+                        type="text" placeholder="Enter your name" />
+                    </div>
+                  </div>
+
+                  <div style="display: flex-item; min-width: 300px; flex: 1 1; padding-bottom: 25px">
+                    <div style="margin-bottom: 8px">
+                      <label for="name"
+                        style="margin-bottom: 8px; display: block; font-size: 1rem; line-height: 1.25rem; font-weight: 500">
+                        Your Email </label>
+                      <input
+                        style="width: 100%; background-color: rgb(44 48 59); color: var(--color_fs); opacity: 1; outline: 2px solid transparent; outline-offset: 2px; font-size: 1rem; line-height: 2.5em; border-radius: 0.125rem; border-width: 0px"
+                        type="text" placeholder="Enter your name" />
+                    </div>
+                  </div>
+                </div>
+
+                <div style="margin-bottom: 8px">
+                  <label for="message" style="font-size: 1rem; line-height: 1.25rem; font-weight: 500"> Your Message
+                  </label>
+                  <textarea
+                    style="width: 100%; margin-top: 15px; background-color: rgb(44 48 59); color: var(--color_fs); opacity: 1; resize: none; outline: 2px solid transparent; outline-offset: 2px; font-size: 1rem; line-height: 2.5em;  border-radius: 0.125rem; border-width: 0px"
+                    rows="5" type="text" placeholder="Enter your message"></textarea>
+                </div>
+
+                <div style="margin-bottom: 8px; margin-top: 20px">
+                  <button
+                    style="color: var(--color_fp); background-color: rgb(74 108 247); padding: 10px; font-size: 1rem; line-height: 1.5rem; padding-left: 2.25rem; padding-right: 2.25rem"
+                    type="submit">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div style="display: flex-item; min-width: 200px; flex: 1 1 150px; padding-bottom: 25px">
+            <div style="padding: 16px"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+
+      <!-- Blogs -->
+      <!--
+      <div style="width: 100%; padding-top: 100px; padding-bottom: 100px">
+        <div style="max-width: 800px; margin: auto; text-align: center">
+          <h1 style="font-size: 3em; color: var(--color_fp)">Our Latest Blogs</h1>
+          <p style="color: var(--color_fs)">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form</p>
+        </div>
+
+        <div style="margin: 40px; padding: 10px; background-color: var(--color_bp); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px 20px">
+          <div style="display: flex-item; min-width: 450px; flex: 1 1; padding-bottom: 25px">
+            <div style="background-color: var(--color_bs); color: var(--color_fp); padding: 16px">
+              <div style="margin-bottom: 40px">
+                <img style="width: 100%" src="blog-01.webp" />
+              </div>
+
+              <h3>Best UI Components for Modern Websites</h3>
+
+              <p style="color: var(--color_fs)">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque , laoreet dolor</p>
+              <div style="border-bottom: 1px solid gray"></div>
+              <div style="position: relative">
+                <div style="width: 15%; display: inline-block; position: relative; vertical-align: middle; margin-top: -20px">IM</div>
+
+                <div style="width: 41%; display: inline-block; position: relative">
+                  <h4>By Samual Joshi</h4>
+                  <p style="color: var(--color_fs)">Graphic Designer</p>
+                </div>
+
+                <div style="margin-top: 15px; width: 41%; display: inline-block; border-left: 1px solid gray">
+                  <h4 style="padding-left: 20px">By Date</h4>
+                  <p style="padding-left: 20px; color: var(--color_fs)">2025</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex-item; min-width: 450px; flex: 1 1; padding-bottom: 25px">
+            <div style="background-color: var(--color_bs); color: var(--color_fp); padding: 16px">
+              <div style="margin-bottom: 40px">
+                <img style="width: 100%" src="blog-01.webp" />
+              </div>
+
+              <h3>Best UI Components for Modern Websites</h3>
+
+              <p style="color: var(--color_fs)">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque , laoreet dolor</p>
+              <div style="border-bottom: 1px solid gray"></div>
+              <div style="position: relative">
+                <div style="width: 15%; display: inline-block; position: relative; vertical-align: middle; margin-top: -20px">IM</div>
+
+                <div style="width: 41%; display: inline-block; position: relative">
+                  <h4>By Samual Joshi</h4>
+                  <p style="color: var(--color_fs)">Graphic Designer</p>
+                </div>
+
+                <div style="margin-top: 15px; width: 41%; display: inline-block; border-left: 1px solid gray">
+                  <h4 style="padding-left: 20px">By Date</h4>
+                  <p style="padding-left: 20px; color: var(--color_fs)">2025</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex-item; min-width: 450px; flex: 1 1; padding-bottom: 25px">
+            <div style="background-color: var(--color_bs); color: var(--color_fp); padding: 16px">
+              <div style="margin-bottom: 40px">
+                <img style="width: 100%" src="blog-01.webp" />
+              </div>
+
+              <h3>Best UI Components for Modern Websites</h3>
+
+              <p style="color: var(--color_fs)">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque , laoreet dolor</p>
+              <div style="border-bottom: 1px solid gray"></div>
+              <div style="position: relative">
+                <div style="width: 15%; display: inline-block; position: relative; vertical-align: middle; margin-top: -20px">IM</div>
+
+                <div style="width: 41%; display: inline-block; position: relative">
+                  <h4>By Samual Joshi</h4>
+                  <p style="color: var(--color_fs)">Graphic Designer</p>
+                </div>
+
+                <div style="margin-top: 15px; width: 41%; display: inline-block; border-left: 1px solid gray">
+                  <h4 style="padding-left: 20px">By Date</h4>
+                  <p style="padding-left: 20px; color: var(--color_fs)">2025</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <div style="font-style: normal; width: 100%; background-color: var(--color_bs)">
+        <div style="display: flex; flex-wrap: wrap; margin-right: 40px; margin-left: 60px">
+          <div style="min-width: 250px; display: flex-item; flex: 1 1 400px">
+            <div style="margin-bottom: 2rem">
+              <table>
+                <tr>
+                  <td>
+                    <div style="height: 25px; display: inline-block; margin-left: -8px; margin-top: 7px">
+                      <svg width="38" height="20" viewBox="0 0 80 64.1077775542564">
+                        <g transform="matrix(1.02918241589328,0,0,1.02918241589328,-0.8526775422506424,-20.862556658348215)" fill="rgb(20,93,208)">
+                          <path xmlns="http://www.w3.org/2000/svg" d="M7.188,40.463c20.558,0,41.119,0,61.677,0c2.37,0,2.37-3.671,0-3.671c-20.558,0-41.119,0-61.677,0  C4.817,36.793,4.817,40.463,7.188,40.463L7.188,40.463z"></path>
+                          <path xmlns="http://www.w3.org/2000/svg" d="M2.534,50.919c19.01,0,38.021,0,57.029,0c2.276,0,2.276-3.531,0-3.531c-19.008,0-38.02,0-57.029,0  C0.26,47.388,0.26,50.919,2.534,50.919L2.534,50.919z"></path>
+                          <path xmlns="http://www.w3.org/2000/svg" d="M13.795,61.268c20.559,0,41.119,0,61.678,0c2.368,0,2.368-3.67,0-3.67c-20.559,0-41.119,0-61.678,0  C11.428,57.596,11.428,61.268,13.795,61.268L13.795,61.268z"></path>
+                          <path
+                            xmlns="http://www.w3.org/2000/svg"
+                            d="M71.068,20.271c8.907,0,16.154,7.247,16.154,16.154c0,0.508-0.052,0.958-0.117,1.367c6.42,2.211,10.888,8.319,10.888,15.275  c0,8.909-7.247,16.155-16.155,16.155c-0.514,0-1.027-0.023-1.539-0.072c-1.185,7.695-7.718,13.411-15.838,13.411  c-7.642,0-14.298-5.426-15.826-12.901c-0.228-1.126,0.496-2.226,1.622-2.456c1.123-0.227,2.229,0.496,2.458,1.624  c1.133,5.547,6.073,9.571,11.749,9.571c6.655,0,11.867-5.174,11.867-11.777c0-0.69,0.342-1.337,0.915-1.726  c0.571-0.386,1.298-0.465,1.939-0.209l0.41,0.164c0.735,0.139,1.489,0.21,2.244,0.21c6.612,0,11.992-5.38,11.992-11.994  c0-5.718-4.064-10.666-9.664-11.767c-0.617-0.12-1.145-0.516-1.439-1.067c-0.293-0.557-0.32-1.215-0.073-1.793l0.177-0.414  c0.022-0.124,0.048-0.246,0.07-0.367c0.091-0.468,0.162-0.838,0.162-1.234c0-6.613-5.379-11.992-11.992-11.992  c-4.884,0-9.239,2.916-11.099,7.434c-0.436,1.063-1.652,1.571-2.715,1.134c-1.063-0.438-1.571-1.653-1.134-2.716  C58.623,24.201,64.49,20.271,71.068,20.271z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </td>
+                  <td>
+                    <div style="display: inline-block; margin-left: 10px">
+                      <h2 style="color: var(--color_fp); font-weight: 300; font-size: 20px">Qpace Technologies Pvt. Ltd.</h2>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+
+              <p style="color: var(--color_fs); margin-bottom: 2.25rem; line-height: 1.625">
+                Innov8, Orchid Center, 3rd Floor, Near IILM, DLF QE, <br />
+                Gurugram - 122002
+              </p>
+              <div style="display: flex; align-items: center">
+                <a href="mailto:contact@qpacetech.com" aria-label="social-link" target="_blank" rel="noopener noreferrer" style="margin-right: 1.5rem; transition-duration: 0.3s">
+                  <svg fill="#fcfcfc" width="18" height="18" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg" stroke="#fcfcfc">
+                    <g stroke-width="0"></g>
+                    <g stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g><path d="M0 1694.235h1920V226H0v1468.235ZM112.941 376.664V338.94H1807.06v37.723L960 1111.233l-847.059-734.57ZM1807.06 526.198v950.513l-351.134-438.89-88.32 70.475 378.353 472.998H174.042l378.353-472.998-88.32-70.475-351.134 438.89V526.198L960 1260.768l847.059-734.57Z" fill-rule="evenodd" fill="#959cb1"></path></g>
+                  </svg>
+                </a>
+                <!--
+                <a href="/" aria-label="social-link" target="_blank" rel="noopener noreferrer" style="margin-right: 1.5rem; color: var(--color_fs); transition-duration: 0.3s">
+                  <svg width="18" height="18" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9831 19.25L9.82094 13.3176L4.61058 19.25H2.40625L8.843 11.9233L2.40625 2.75H8.06572L11.9884 8.34127L16.9034 2.75H19.1077L12.9697 9.73737L19.6425 19.25H13.9831ZM16.4378 17.5775H14.9538L5.56249 4.42252H7.04674L10.808 9.6899L11.4584 10.6039L16.4378 17.5775Z" fill="#959cb1"></path>
+                  </svg>
+                </a>
+                <a href="/" aria-label="social-link" target="_blank" rel="noopener noreferrer" style="margin-right: 1.5rem; color: var(--color_fs); transition-duration: 0.3s">
+                  <svg width="18" height="14" viewBox="0 0 18 14" fill="none">
+                    <path
+                      d="M17.5058 2.07119C17.3068 1.2488 16.7099 0.609173 15.9423 0.395963C14.5778 7.26191e-08 9.0627 0 9.0627 0C9.0627 0 3.54766 7.26191e-08 2.18311 0.395963C1.41555 0.609173 0.818561 1.2488 0.619565 2.07119C0.25 3.56366 0.25 6.60953 0.25 6.60953C0.25 6.60953 0.25 9.68585 0.619565 11.1479C0.818561 11.9703 1.41555 12.6099 2.18311 12.8231C3.54766 13.2191 9.0627 13.2191 9.0627 13.2191C9.0627 13.2191 14.5778 13.2191 15.9423 12.8231C16.7099 12.6099 17.3068 11.9703 17.5058 11.1479C17.8754 9.68585 17.8754 6.60953 17.8754 6.60953C17.8754 6.60953 17.8754 3.56366 17.5058 2.07119ZM7.30016 9.44218V3.77687L11.8771 6.60953L7.30016 9.44218Z"
+                      fill="#959cb1"
+                    ></path>
+                  </svg>
+                </a>
+              -->
+                <a href="/" aria-label="social-link" target="_blank" rel="noopener noreferrer" style="margin-right: 1.5rem; color: var(--color_fs); transition-duration: 0.3s">
+                  <svg width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path
+                      d="M15.2196 0H1.99991C1.37516 0 0.875366 0.497491 0.875366 1.11936V14.3029C0.875366 14.8999 1.37516 15.4222 1.99991 15.4222H15.1696C15.7943 15.4222 16.2941 14.9247 16.2941 14.3029V1.09448C16.3441 0.497491 15.8443 0 15.2196 0ZM5.44852 13.1089H3.17444V5.7709H5.44852V13.1089ZM4.29899 4.75104C3.54929 4.75104 2.97452 4.15405 2.97452 3.43269C2.97452 2.71133 3.57428 2.11434 4.29899 2.11434C5.02369 2.11434 5.62345 2.71133 5.62345 3.43269C5.62345 4.15405 5.07367 4.75104 4.29899 4.75104ZM14.07 13.1089H11.796V9.55183C11.796 8.7061 11.771 7.58674 10.5964 7.58674C9.39693 7.58674 9.222 8.53198 9.222 9.47721V13.1089H6.94792V5.7709H9.17202V6.79076H9.19701C9.52188 6.19377 10.2466 5.59678 11.3711 5.59678C13.6952 5.59678 14.12 7.08925 14.12 9.12897V13.1089H14.07Z"
+                      fill="#959cb1"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+              <div style="color: var(--color_fs)">contact@qpacetech.com</div>
+            </div>
+          </div>
+
+          <!--
+
+          <div style="min-width: 250px; display: flex-item; flex: 1 1 200px">
+            <div style="margin-bottom: 2rem">
+              <h2 style="color: rgb(255 255 255); font-weight: 300; font-size: 1.25rem; line-height: 1.75">Useful Links</h2>
+              <ul style="list-style: none; margin: 0; padding: 0">
+                <li>
+                  <a style="color: var(--color_fs); font-size: 1rem; line-height: 1.5rem; display: inline-block; margin-bottom: 1rem; transition-duration: 0.3s" href="/blog"> Blog </a>
+                </li>
+                <li>
+                  <a style="color: var(--color_fs); font-size: 1rem; line-height: 1.5rem; display: inline-block; margin-bottom: 1rem; transition-duration: 0.3s" href="/">Pricing</a>
+                </li>
+                <li>
+                  <a style="color: var(--color_fs); font-size: 1rem; line-height: 1.5rem; display: inline-block; margin-bottom: 1rem; transition-duration: 0.3s" href="/about">About</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div style="min-width: 250px; display: flex-item; flex: 1 1 200px">
+            <div class="mb-12 lg:mb-16">
+              <h2 style="color: rgb(255 255 255); font-weight: 300; font-size: 1.25rem; line-height: 1.75">Terms</h2>
+              <ul style="list-style: none; margin: 0; padding: 0">
+                <li>
+                  <a style="color: var(--color_fs); font-size: 1rem; line-height: 1.5rem; display: inline-block; margin-bottom: 1rem; transition-duration: 0.3s" href="/">TOS</a>
+                </li>
+                <li>
+                  <a style="color: var(--color_fs); font-size: 1rem; line-height: 1.5rem; display: inline-block; margin-bottom: 1rem; transition-duration: 0.3s" href="/">Privacy Policy</a>
+                </li>
+                <li>
+                  <a style="color: var(--color_fs); font-size: 1rem; line-height: 1.5rem; display: inline-block; margin-bottom: 1rem; transition-duration: 0.3s" href="/">Refund Policy</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div style="min-width: 250px; display: flex-item; flex: 1 1 200px">
+            <div style="margin-bottom: 4rem">
+              <h2 style="color: rgb(255 255 255); font-weight: 300; font-size: 1.25rem; line-height: 1.75">Support &amp; Help</h2>
+              <ul style="list-style: none; margin: 0; padding: 0">
+                <li>
+                  <a style="color: var(--color_fs); font-size: 1rem; line-height: 1.5rem; display: inline-block; margin-bottom: 1rem; transition-duration: 0.3s" href="/contact">Open Support Ticket</a>
+                </li>
+                <li>
+                  <a style="color: var(--color_fs); font-size: 1rem; line-height: 1.5rem; display: inline-block; margin-bottom: 1rem; transition-duration: 0.3s" href="/">Terms of Use</a>
+                </li>
+                <li>
+                  <a style="color: var(--color_fs); font-size: 1rem; line-height: 1.5rem; display: inline-block; margin-bottom: 1rem; transition-duration: 0.3s" href="/about">About</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        --></div>
+      </div>
+
+      <div style="color: var(--color_fs); text-align: center">
+        <svg width="15" height="15" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" style="margin-right: 5px; margin-top: 3px">
+          <g stroke-width="0"></g>
+          <g stroke-linecap="round" stroke-linejoin="round"></g>
+          <g>
+            <path
+              fill="#959cb1"
+              d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 448c-110.532 0-200-89.451-200-200 0-110.531 89.451-200 200-200 110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200zm107.351-101.064c-9.614 9.712-45.53 41.396-104.065 41.396-82.43 0-140.484-61.425-140.484-141.567 0-79.152 60.275-139.401 139.762-139.401 55.531 0 88.738 26.62 97.593 34.779a11.965 11.965 0 0 1 1.936 15.322l-18.155 28.113c-3.841 5.95-11.966 7.282-17.499 2.921-8.595-6.776-31.814-22.538-61.708-22.538-48.303 0-77.916 35.33-77.916 80.082 0 41.589 26.888 83.692 78.277 83.692 32.657 0 56.843-19.039 65.726-27.225 5.27-4.857 13.596-4.039 17.82 1.738l19.865 27.17a11.947 11.947 0 0 1-1.152 15.518z"
+            ></path>
+          </g>
+        </svg>
+        <span>Copyright 2024. </span>
+      </div>
+
+      <div style="position: absolute; z-index: -1; right: 0; top: 14px">
+        <svg width="55" height="99" viewBox="0 0 55 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle opacity="0.8" cx="49.5" cy="49.5" r="49.5" fill="#959CB1"></circle>
+          <mask id="mask0_94:899" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="99" height="99">
+            <circle opacity="0.8" cx="49.5" cy="49.5" r="49.5" fill="#4A6CF7"></circle>
+          </mask>
+          <g mask="url(#mask0_94:899)">
+            <circle opacity="0.8" cx="49.5" cy="49.5" r="49.5" fill="url(#paint0_radial_94:899)"></circle>
+            <g opacity="0.8" filter="url(#filter0_f_94:899)"><circle cx="53.8676" cy="26.2061" r="20.3824" fill="white"></circle></g>
+          </g>
+          <defs>
+            <filter id="filter0_f_94:899" x="12.4852" y="-15.1763" width="82.7646" height="82.7646" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+              <feGaussianBlur stdDeviation="10.5" result="effect1_foregroundBlur_94:899"></feGaussianBlur>
+            </filter>
+            <radialGradient id="paint0_radial_94:899" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(49.5 49.5) rotate(90) scale(53.1397)">
+              <stop stop-opacity="0.47"></stop>
+              <stop offset="1" stop-opacity="0"></stop>
+            </radialGradient>
+          </defs>
+        </svg>
+      </div>
+      <!--div class="absolute bottom-24 left-0 z-[-1]">
+          <svg width="79" height="94" viewBox="0 0 79 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect opacity="0.3" x="-41" y="26.9426" width="66.6675" height="66.6675" transform="rotate(-22.9007 -41 26.9426)" fill="url(#paint0_linear_94:889)"></rect>
+            <rect x="-41" y="26.9426" width="66.6675" height="66.6675" transform="rotate(-22.9007 -41 26.9426)" stroke="url(#paint1_linear_94:889)" stroke-width="0.7"></rect>
+            <path opacity="0.3" d="M50.5215 7.42229L20.325 1.14771L46.2077 62.3249L77.1885 68.2073L50.5215 7.42229Z" fill="url(#paint2_linear_94:889)"></path>
+            <path d="M50.5215 7.42229L20.325 1.14771L46.2077 62.3249L76.7963 68.2073L50.5215 7.42229Z" stroke="url(#paint3_linear_94:889)" stroke-width="0.7"></path>
+            <path opacity="0.3" d="M17.9721 93.3057L-14.9695 88.2076L46.2077 62.325L77.1885 68.2074L17.9721 93.3057Z" fill="url(#paint4_linear_94:889)"></path>
+            <path d="M17.972 93.3057L-14.1852 88.2076L46.2077 62.325L77.1884 68.2074L17.972 93.3057Z" stroke="url(#paint5_linear_94:889)" stroke-width="0.7"></path>
+            <defs>
+              <linearGradient id="paint0_linear_94:889" x1="-41" y1="21.8445" x2="36.9671" y2="59.8878" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4A6CF7" stop-opacity="0.62"></stop>
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0"></stop>
+              </linearGradient>
+              <linearGradient id="paint1_linear_94:889" x1="25.6675" y1="95.9631" x2="-42.9608" y2="20.668" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4A6CF7" stop-opacity="0"></stop>
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0.51"></stop>
+              </linearGradient>
+              <linearGradient id="paint2_linear_94:889" x1="20.325" y1="-3.98039" x2="90.6248" y2="25.1062" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4A6CF7" stop-opacity="0.62"></stop>
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0"></stop>
+              </linearGradient>
+              <linearGradient id="paint3_linear_94:889" x1="18.3642" y1="-1.59742" x2="113.9" y2="80.6826" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4A6CF7" stop-opacity="0"></stop>
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0.51"></stop>
+              </linearGradient>
+              <linearGradient id="paint4_linear_94:889" x1="61.1098" y1="62.3249" x2="-8.82468" y2="58.2156" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4A6CF7" stop-opacity="0.62"></stop>
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0"></stop>
+              </linearGradient>
+              <linearGradient id="paint5_linear_94:889" x1="65.4236" y1="65.0701" x2="24.0178" y2="41.6598" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4A6CF7" stop-opacity="0"></stop>
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0.51"></stop>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div-->
+
+      <div style="position: fixed; right: 2rem; bottom: 2rem; z-index: 99" id="scrollbutton">
+        <div
+          aria-label="scroll to top"
+          style="display: flex; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 0.3s; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000; color: rgb(255 255 255); background-color: rgb(74 108 247); border-radius: 0.375rem; align-items: center; justify-content: center; cursor: pointer; width: 40px; height: 40px; padding-top: 3px"
+          onClick="document.body.scrollTop = 0; document.documentElement.scrollTop = 0;"
+        >
+          <div style="transform: rotate(45deg); border-top: 1px solid white; border-left: 1px solid white; width: 10px; height: 10px"></div>
+
+          <!--span style="border-top-width: 1px; border-left-width: 1px; width: 0.75rem; height: 0.75rem;
+            margin-top:6px; border-color: rgb(255 255 255);     box-sizing: border-box;
+            border: 0 solid #e5e7eb; color:white;
+            transform: translate(0, 0) rotate(45deg) skewX(0) skewY(0) scaleX(1) scaleY(1);">
+        </span-->
+        </div>
+      </div>
     </div>
   </body>
 </html>

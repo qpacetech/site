@@ -11,14 +11,17 @@ html {
 
 .theme_bright {
   --color_bp: rgb(232, 227, 215);
-  --color_bs: rgb(205, 200, 191);
+  /*--color_bs: rgb(205, 200, 191);*/
+  --color_bs: rgb(225, 220, 211);;
   --color_fp: black;
+  --color_fs: rgb(99, 106, 127);
 }
 
 .theme_dark {
   --color_bp: rgb(23, 28, 40);
   --color_bs: rgb(30, 35, 46);
   --color_fp: white;
+  --color_fs: rgb(149, 156, 177);
 }
 
 /* mobile Menu Content (Hidden by Default)  var(--color_fp) */
