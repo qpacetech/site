@@ -8,6 +8,7 @@ html {
   width: 100%;
   background-color: var(--color_bp);
 }
+ 
 
 .theme_bright {
   --color_bp: rgb(232, 227, 215);
